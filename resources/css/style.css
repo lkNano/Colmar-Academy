@@ -1,3 +1,7 @@
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 #header {
   display: flex;
   justify-content: space-between;
@@ -7,9 +11,14 @@
   margin: 0 24px 0 24px;
 }
 
+body {
+  margin: 0px;
+}
+
 .logo {
   text-transform: uppercase;
   font-size: 32px;
+  color: rgb(74,74,74);
 }
 
 .logo img {
@@ -19,8 +28,43 @@
 
 .navigation {
   font-size: 20px;
+  color: rgb(74,74,74);
 }
 
 .navigation a {
   margin-right: 16px;
+}
+
+#intro {
+  display: flex;
+  width: 100%;
+  background-color: lightgray;
+}
+
+.intro-img {
+  max-width: 60%;
+  margin: 32px 24px;
+}
+
+.intro-img img {
+  max-width: 100%;
+}
+
+.intro-text {
+  max-width: 25%;
+  align-content: center;
+  color: rgb(74,74,74);
+}
+
+.intro-text h1 {
+  font-weight: bold;
+}
+
+.start-button {
+  background-color: rgb(74,74,74);
+  color: lightgray;
+  text-align: center;
+  padding: 8px 0;
+  font-weight: normal;
+  margin-top: 32px;
 }
