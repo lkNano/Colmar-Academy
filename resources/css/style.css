@@ -27,7 +27,7 @@ body {
 }
 
 .navigation {
-  font-size: 20px;
+  font-size: 16px;
   color: rgb(74,74,74);
 }
 
@@ -39,6 +39,7 @@ body {
   display: flex;
   width: 100%;
   background-color: lightgray;
+  align-items: center;
 }
 
 .intro-img {
@@ -52,7 +53,6 @@ body {
 
 .intro-text {
   max-width: 25%;
-  align-content: center;
   color: rgb(74,74,74);
 }
 
@@ -68,3 +68,4 @@ body {
   font-weight: normal;
   margin-top: 32px;
 }
+
