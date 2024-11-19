@@ -144,3 +144,47 @@ body {
 .guest-lecture {
   background-color: lightgray;
 }
+
+#start-learning {
+  background-color: lightgray;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 56px;
+  max-width: 100%;
+}
+
+#start-learning h2{
+  margin: 32px 0;
+  width: 100%;
+  text-align: center;
+}
+
+.courses {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.software-eng, .computer-art, .design, .data, .business, .marketing {
+  width: 30.5%;
+  background-color: rgb(243,245,245);
+  margin: 0 16px 32px;
+  padding-bottom: 24px;
+}
+
+.courses-img {
+  height: auto;
+  max-width: 100%;
+  margin-bottom: 8px;
+}
+
+.text {
+  margin: 8px 16px 0;
+  line-height: 1.5;
+}
+
+.uppercase {
+  text-transform: uppercase;
+  margin: 8px 16px 0;
+  line-height: 1.5;
+}
