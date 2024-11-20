@@ -206,12 +206,12 @@ body {
 
 .spotlight {
   display: inline-block;
-  max-width: 60%;
+  width: 60%;
   margin: 0 24px 32px;
 }
 
 .spotlight video {
-  width: 100%;
+  max-width: 100%;
 }
 
 .spotlight h3 {
@@ -226,12 +226,12 @@ body {
 
 .thesis-feat {
   display: inline-block;
-  max-width: 40%;
+  width: 40%;
 }
 
 .fisma, .now-and-then {
   display: flex;
-  width: 100%;
+  max-width: 100%;
   align-items: center;
 }
 
@@ -256,4 +256,18 @@ body {
 
 .fisma {
   background-color: lightgray;
+}
+
+footer {
+  display: flex;
+  padding: 0px 24px;
+  align-items: center;
+  max-width: 100%;
+  justify-content: space-between;
+  line-height: 1.5;
+  border-top: 5px solid lightgray;
+}
+
+footer a {
+  margin-left: 16px;
 }
