@@ -188,3 +188,72 @@ body {
   margin: 8px 16px 0;
   line-height: 1.5;
 }
+
+#thesis-exhibit {
+  display: inline-block;
+  width: 100%;
+}
+
+#thesis-exhibit h2 {
+  text-align: center;
+  margin: 32px 0px;
+}
+
+.thesis-sec {
+  display: flex;
+  width: 100%;
+}
+
+.spotlight {
+  display: inline-block;
+  max-width: 60%;
+  margin: 0 24px 32px;
+}
+
+.spotlight video {
+  width: 100%;
+}
+
+.spotlight h3 {
+  margin: 24px 0 8px;
+  line-height: 1.5;
+}
+
+.spotlight p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+.thesis-feat {
+  display: inline-block;
+  max-width: 40%;
+}
+
+.fisma, .now-and-then {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.thesis-feat img {
+  width: 35%;
+  height: auto;
+  margin: 16px;
+}
+
+.thesis-feat .details {
+  width: 65%;
+  line-height: 1.5;
+}
+
+.thesis-feat .details h3 {
+  margin: 0;
+}
+
+.thesis-feat .details p {
+  margin: 8px 0;
+}
+
+.fisma {
+  background-color: lightgray;
+}
