@@ -109,6 +109,35 @@ body {
   margin-top: 32px;
 }
 
+@media only screen and (max-width: 320px) {
+  #intro {
+    display: inline-block;
+  }
+
+  #intro .intro-img{
+    margin: 0;
+    max-width: 100%;
+  }
+
+  .intro-text {
+    max-width: 100%;
+    margin: 32px 16px;
+    font-size: 0.8em;
+    line-height: 1.5;
+  }
+
+  .intro-text h1 {
+    margin: 0 0 32px;
+  }
+
+  .start-button {
+    margin-top: 24px;
+    background-color:rgb(155,155,155);
+    color: white;
+    font-weight: bold;
+  }
+}
+
 #university-info {
   display: flex;
   background-color: rgb(243,245,245);
