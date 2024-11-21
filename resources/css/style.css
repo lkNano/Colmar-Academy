@@ -405,7 +405,7 @@ body {
   display: none;
 }
 
-@media only screen and (max-width: 320px){
+@media only screen and (max-width: 320px) {
   #thesis-exhibit {
     display: inline-block;
     padding-bottom: 24px;
@@ -437,4 +437,16 @@ footer {
 
 footer a {
   margin-left: 16px;
+}
+
+@media only screen and (max-width: 320px) {
+  footer {
+    border: none;
+    padding: 4px 16px;
+    font-size: 12px;
+  }
+
+  footer a {
+    display: none;
+  }
 }
