@@ -51,7 +51,7 @@ body {
 }
 
 .mobile-screen {
-  visibility: hidden;
+  display: none;
 }
 
 @media only screen and (max-width: 320px) {
@@ -62,7 +62,7 @@ body {
     align-items: center;
   }
   .logo, .navigation {
-    visibility: hidden;
+    display: none;
   }
 
   .mobile-screen {
@@ -177,6 +177,10 @@ body {
   height: auto;
 }
 
+.uni-info .mobile-img {
+  display: none;
+}
+
 .uni-info .details {
   width: 65%;
   margin-left: 16px;
@@ -203,6 +207,52 @@ body {
 
 .guest-lecture {
   background-color: lightgray;
+}
+
+@media only screen and (max-width: 320px){
+  #university-info {
+    display: inline-block;
+  }
+
+  .quote {
+    display: none;
+  }
+
+  .uni-info {
+    display: inline-block;
+    max-width: 100%;
+    margin: 16px;
+  }
+
+  .uni-info img {
+    display: none;
+  }
+  
+  .uni-info .mobile-img {
+    display: block;
+    width: 100%;
+    margin-bottom: 16px;
+  }
+
+  .orientation, .campus, .guest-lecture {
+    display: inline-block;
+    margin: 0 0 64px;
+    padding: 0;
+  }
+
+  .uni-info .details {
+    width: 89%;
+    margin-right: 16px;
+  }
+
+  .uni-info .details p, a {
+    font-size: 14px;
+  }
+
+  .guest-lecture {
+    background-color: rgb(243,245,245);
+    margin-bottom: 16px;
+  }
 }
 
 #start-learning {
