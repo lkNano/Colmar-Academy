@@ -3,6 +3,13 @@ html {
   color: rgb(74,74,74);
 }
 
+@media only screen and (max-width: 320px) {
+  html {
+    max-width: 320px;
+    margin: 0;
+  }
+}
+
 #header {
   display: flex;
   justify-content: space-between;
@@ -41,6 +48,30 @@ body {
 
 .navigation a {
   margin-right: 16px;
+}
+
+.mobile-screen {
+  visibility: hidden;
+}
+
+@media only screen and (max-width: 320px) {
+  #header {
+    display: flex;
+    height: 64px;
+    max-width: 320px;
+    align-items: center;
+  }
+  .logo, .navigation {
+    visibility: hidden;
+  }
+
+  .mobile-screen {
+    display: flex;
+    visibility: visible;
+    position: absolute;
+    justify-content: space-between;
+    width: 272px;
+  }
 }
 
 #intro {
